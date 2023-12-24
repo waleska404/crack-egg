@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var counter: Int = 0
+    
+    var body: some View {
+        CounterView(counter: $counter)
+    }
+}
+
+struct CounterView: View {
+    
+    @Binding var counter: Int
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Counter \(counter)")
+            RoundedRectangle(cornerRadius: 20)
+                .frame(width: 100, height: 100)
+                .onTapGesture {
+                    self.counter += 1
+                }
         }
-        .padding()
     }
 }
 
