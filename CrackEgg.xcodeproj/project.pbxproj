@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF4C39872B389CBF00DB507A /* CrackEggApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C39862B389CBF00DB507A /* CrackEggApp.swift */; };
+		FF4C39892B389CBF00DB507A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C39882B389CBF00DB507A /* ContentView.swift */; };
+		FF4C398B2B389CC000DB507A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4C398A2B389CC000DB507A /* Assets.xcassets */; };
+		FF4C398E2B389CC000DB507A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4C398D2B389CC000DB507A /* Preview Assets.xcassets */; };
+		FF4C39982B389CC000DB507A /* CrackEggTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C39972B389CC000DB507A /* CrackEggTests.swift */; };
+		FF4C39A22B389CC000DB507A /* CrackEggUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C39A12B389CC000DB507A /* CrackEggUITests.swift */; };
+		FF4C39A42B389CC000DB507A /* CrackEggUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C39A32B389CC000DB507A /* CrackEggUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF4C39942B389CC000DB507A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4C397B2B389CBF00DB507A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4C39822B389CBF00DB507A;
+			remoteInfo = CrackEgg;
+		};
+		FF4C399E2B389CC000DB507A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4C397B2B389CBF00DB507A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4C39822B389CBF00DB507A;
+			remoteInfo = CrackEgg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF4C39832B389CBF00DB507A /* CrackEgg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrackEgg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4C39862B389CBF00DB507A /* CrackEggApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackEggApp.swift; sourceTree = "<group>"; };
+		FF4C39882B389CBF00DB507A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF4C398A2B389CC000DB507A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4C398D2B389CC000DB507A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF4C39932B389CC000DB507A /* CrackEggTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrackEggTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4C39972B389CC000DB507A /* CrackEggTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackEggTests.swift; sourceTree = "<group>"; };
+		FF4C399D2B389CC000DB507A /* CrackEggUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrackEggUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4C39A12B389CC000DB507A /* CrackEggUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackEggUITests.swift; sourceTree = "<group>"; };
+		FF4C39A32B389CC000DB507A /* CrackEggUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrackEggUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4C39802B389CBF00DB507A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4C39902B389CC000DB507A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4C399A2B389CC000DB507A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4C397A2B389CBF00DB507A = {
+			isa = PBXGroup;
+			children = (
+				FF4C39852B389CBF00DB507A /* CrackEgg */,
+				FF4C39962B389CC000DB507A /* CrackEggTests */,
+				FF4C39A02B389CC000DB507A /* CrackEggUITests */,
+				FF4C39842B389CBF00DB507A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4C39842B389CBF00DB507A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4C39832B389CBF00DB507A /* CrackEgg.app */,
+				FF4C39932B389CC000DB507A /* CrackEggTests.xctest */,
+				FF4C399D2B389CC000DB507A /* CrackEggUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4C39852B389CBF00DB507A /* CrackEgg */ = {
+			isa = PBXGroup;
+			children = (
+				FF4C39862B389CBF00DB507A /* CrackEggApp.swift */,
+				FF4C39882B389CBF00DB507A /* ContentView.swift */,
+				FF4C398A2B389CC000DB507A /* Assets.xcassets */,
+				FF4C398C2B389CC000DB507A /* Preview Content */,
+			);
+			path = CrackEgg;
+			sourceTree = "<group>";
+		};
+		FF4C398C2B389CC000DB507A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF4C398D2B389CC000DB507A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF4C39962B389CC000DB507A /* CrackEggTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4C39972B389CC000DB507A /* CrackEggTests.swift */,
+			);
+			path = CrackEggTests;
+			sourceTree = "<group>";
+		};
+		FF4C39A02B389CC000DB507A /* CrackEggUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4C39A12B389CC000DB507A /* CrackEggUITests.swift */,
+				FF4C39A32B389CC000DB507A /* CrackEggUITestsLaunchTests.swift */,
+			);
+			path = CrackEggUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4C39822B389CBF00DB507A /* CrackEgg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4C39A72B389CC000DB507A /* Build configuration list for PBXNativeTarget "CrackEgg" */;
+			buildPhases = (
+				FF4C397F2B389CBF00DB507A /* Sources */,
+				FF4C39802B389CBF00DB507A /* Frameworks */,
+				FF4C39812B389CBF00DB507A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrackEgg;
+			productName = CrackEgg;
+			productReference = FF4C39832B389CBF00DB507A /* CrackEgg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF4C39922B389CC000DB507A /* CrackEggTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4C39AA2B389CC000DB507A /* Build configuration list for PBXNativeTarget "CrackEggTests" */;
+			buildPhases = (
+				FF4C398F2B389CC000DB507A /* Sources */,
+				FF4C39902B389CC000DB507A /* Frameworks */,
+				FF4C39912B389CC000DB507A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4C39952B389CC000DB507A /* PBXTargetDependency */,
+			);
+			name = CrackEggTests;
+			productName = CrackEggTests;
+			productReference = FF4C39932B389CC000DB507A /* CrackEggTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF4C399C2B389CC000DB507A /* CrackEggUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4C39AD2B389CC000DB507A /* Build configuration list for PBXNativeTarget "CrackEggUITests" */;
+			buildPhases = (
+				FF4C39992B389CC000DB507A /* Sources */,
+				FF4C399A2B389CC000DB507A /* Frameworks */,
+				FF4C399B2B389CC000DB507A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4C399F2B389CC000DB507A /* PBXTargetDependency */,
+			);
+			name = CrackEggUITests;
+			productName = CrackEggUITests;
+			productReference = FF4C399D2B389CC000DB507A /* CrackEggUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4C397B2B389CBF00DB507A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FF4C39822B389CBF00DB507A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FF4C39922B389CC000DB507A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FF4C39822B389CBF00DB507A;
+					};
+					FF4C399C2B389CC000DB507A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FF4C39822B389CBF00DB507A;
+					};
+				};
+			};
+			buildConfigurationList = FF4C397E2B389CBF00DB507A /* Build configuration list for PBXProject "CrackEgg" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4C397A2B389CBF00DB507A;
+			productRefGroup = FF4C39842B389CBF00DB507A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4C39822B389CBF00DB507A /* CrackEgg */,
+				FF4C39922B389CC000DB507A /* CrackEggTests */,
+				FF4C399C2B389CC000DB507A /* CrackEggUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4C39812B389CBF00DB507A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4C398E2B389CC000DB507A /* Preview Assets.xcassets in Resources */,
+				FF4C398B2B389CC000DB507A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4C39912B389CC000DB507A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4C399B2B389CC000DB507A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4C397F2B389CBF00DB507A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4C39892B389CBF00DB507A /* ContentView.swift in Sources */,
+				FF4C39872B389CBF00DB507A /* CrackEggApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4C398F2B389CC000DB507A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4C39982B389CC000DB507A /* CrackEggTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4C39992B389CC000DB507A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4C39A42B389CC000DB507A /* CrackEggUITestsLaunchTests.swift in Sources */,
+				FF4C39A22B389CC000DB507A /* CrackEggUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF4C39952B389CC000DB507A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4C39822B389CBF00DB507A /* CrackEgg */;
+			targetProxy = FF4C39942B389CC000DB507A /* PBXContainerItemProxy */;
+		};
+		FF4C399F2B389CC000DB507A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4C39822B389CBF00DB507A /* CrackEgg */;
+			targetProxy = FF4C399E2B389CC000DB507A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF4C39A52B389CC000DB507A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF4C39A62B389CC000DB507A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4C39A82B389CC000DB507A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrackEgg/Preview Content\"";
+				DEVELOPMENT_TEAM = QYA5JHTLJ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waleska404.CrackEgg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF4C39A92B389CC000DB507A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrackEgg/Preview Content\"";
+				DEVELOPMENT_TEAM = QYA5JHTLJ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waleska404.CrackEgg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF4C39AB2B389CC000DB507A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYA5JHTLJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waleska404.CrackEggTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrackEgg.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrackEgg";
+			};
+			name = Debug;
+		};
+		FF4C39AC2B389CC000DB507A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYA5JHTLJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waleska404.CrackEggTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrackEgg.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrackEgg";
+			};
+			name = Release;
+		};
+		FF4C39AE2B389CC000DB507A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYA5JHTLJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waleska404.CrackEggUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrackEgg;
+			};
+			name = Debug;
+		};
+		FF4C39AF2B389CC000DB507A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYA5JHTLJ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waleska404.CrackEggUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrackEgg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4C397E2B389CBF00DB507A /* Build configuration list for PBXProject "CrackEgg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4C39A52B389CC000DB507A /* Debug */,
+				FF4C39A62B389CC000DB507A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4C39A72B389CC000DB507A /* Build configuration list for PBXNativeTarget "CrackEgg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4C39A82B389CC000DB507A /* Debug */,
+				FF4C39A92B389CC000DB507A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4C39AA2B389CC000DB507A /* Build configuration list for PBXNativeTarget "CrackEggTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4C39AB2B389CC000DB507A /* Debug */,
+				FF4C39AC2B389CC000DB507A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4C39AD2B389CC000DB507A /* Build configuration list for PBXNativeTarget "CrackEggUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4C39AE2B389CC000DB507A /* Debug */,
+				FF4C39AF2B389CC000DB507A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4C397B2B389CBF00DB507A /* Project object */;
+}
